@@ -125,9 +125,6 @@ extras_require = {
         # Allows us to compare nested dictionaries easily.
         'deepdiff'
     ],
-    'rabbitmq': [
-        'gevent-pika'
-    ],
     'web': [    # Web support for launching web based agents including ssl and json web tokens.
         'ws4py',
         'PyJWT',
